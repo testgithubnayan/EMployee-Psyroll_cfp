@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Employee Payroll App</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./home.js" defer></script>
+    <!-- <script defer src="db.json"></script> -->
+  </head>
+
+  <body>
+    <header class="header-content header">
+      <div class="logo-content">
+        <a href="PayrollForm.html">
+          <img src="https://img.icons8.com/color/1x/payroll.png" alt="logo"
+        /></a>
+        <div>
+          <span class="emp-text">EMPLOYEE</span><br />
+          <span class="emp-text emp-payroll">PAYROLL</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="header-content">
+        <div class="emp-detail-text">
+          Employee Details
+          <div class="emp-count">10</div>
+        </div>
+        <a href="PayrollForm.html" target="_blank" class="add-button">
+          <img src="" alt="" /> Add User</a
+        >
+      </div>
+
+      <div class="table-main">
+        <table id="table-display" class="table">
+          <thead style="background-color: rgb(0, 235, 157)">
+            <td>Name</td>
+            <td>Gender</td>
+            <td>Department</td>
+            <td>Salary</td>
+            <td>Start Date</td>
+            <td>Actions</td>
+          </thead>
+          <tbody class="tablebody" style="color: rgb(0, 255, 8)">
+            <tr>
+              <td>Nayan Soni</td>
+              <td>Male</td>
+              <td>
+                <div
+                  style="
+                    color: rgb(14, 14, 13);
+                    background-color: yellowgreen;
+                    border-radius: 25px;
+                  "
+                >
+                  Engineer
+                </div>
+              </td>
+              <td>40000</td>
+              <td>15 Oct 2021</td>
+              <td>
+                <img
+                  id="1"
+                  onclick="remove(this)"
+                  src=" ./icons/delete-black-18dp.svg"
+                  alt="delete"
+                />
+                <img
+                  id="1"
+                  onclick="update(this)"
+                  src="./icons/create-black-18dp.svg"
+                  alt="edit"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

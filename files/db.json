@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": "0.8901618373689966",
+      "name": "Nayanji",
+      "pic": "pic2",
+      "Gender": "female",
+      "departments": "[\"hr\",\"engineer\\n            />\\n            <label for=\"]",
+      "desc": "dvad",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "0.9541731184765214",
+      "name": "asc",
+      "pic": "pic1",
+      "Gender": "male",
+      "salary": "10000",
+      "departments": "[\"engineer\"]",
+      "desc": "scsc",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "0.3283881067575176",
+      "name": "DV",
+      "pic": "pic1",
+      "Gender": "male",
+      "salary": "10000",
+      "departments": "[\"hr\"]",
+      "desc": "  S ",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "0.7441935456608351",
+      "name": "sd",
+      "pic": "pic3",
+      "Gender": "female",
+      "salary": "10000",
+      "departments": "[\"finance\"]",
+      "desc": " Type Text Here!",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "0.751664601441195",
+      "name": "NAYAN SONI",
+      "pic": "pic2",
+      "Gender": "male",
+      "salary": "10000",
+      "departments": "[\"hr\"]",
+      "desc": " Type Text Here!",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "0.45275912877601043",
+      "name": " Added",
+      "pic": "pic1",
+      "Gender": "male",
+      "salary": "10000",
+      "departments": "[\"hr\",\"sales\",\"finance\",\"engineer\",\"Others \"]",
+      "desc": " Helo",
+      "startDate": "14 Jun 2018"
+    },
+    {
+      "id": "0.5744548276942496",
+      "name": "Todays Date",
+      "pic": "pic2",
+      "Gender": "male",
+      "salary": "10000",
+      "departments": "[\"hr\",\"sales\",\"finance\",\"engineer\",\"Others \"]",
+      "desc": "Hello",
+      "startDate": "8 May 2018"
+    },
+    {
+      "id": "0.8986781498621725",
+      "name": "Todays Date",
+      "pic": "pic2",
+      "Gender": "male",
+      "salary": "20000",
+      "departments": "[\"hr\",\"finance\"]",
+      "desc": "Hi",
+      "startDate": "1 Jan 2020"
+    }
+  ],
+  "users": []
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <script src="../jquery-3.6.3.min.js"></script>
+    <style>
+      p {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+      }
+      button {
+        height: 5vh;
+        width: 5vw;
+        color: rgb(34, 34, 244);
+        background-color: blue solid;
+      }
+      .wiki {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="one">this one</p>
+    <p id="two">this two</p>
+    <p id="three">this three</p>
+    <p id="four">this four</p>
+    <p>this FIVE</p>
+    <button id="but">click</button>
+    <div class="wiki" id="wiki">
+      <br />
+      "HI I AM NAYAN":-GOOD MORNING <br />
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nam
+      voluptates architecto animi, et, enim iure unde illo voluptatum illum
+      provident nihil necessitatibus consectetur delectus? Accusamus impedit
+      voluptatum eveniet alias placeat porro tempore error eum voluptatem
+      eligendi repellendus quisquam voluptate hic officia rerum ullam possimus,
+      velit odio nulla dignissimos maiores.
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("p").css("background-color", "cyan");
+      $("p").click();
+      $("p").click(function () {
+        console.log("u clicked");
+        $(this).hide(console.log("ites hiding"));
+        $(this).hover(console.log("u howered"));
+        console.log("uclicked on ", this.id);
+      });
+
+      $("p").mouseenter();
+      $("p").mouseenter(function () {
+        console.log("u clicked");
+        // $(this).hide(console.log("ites hiding"));
+        // $(this).hover(console.log("u howered"));
+        console.log("mouse entered  on ", this.id);
+        console.log("uclicked on ", this.id);
+      });
+
+      $("p").mouseleave();
+      $("p").mouseleave(function () {
+        console.log("u clicked");
+        // $(this).hide(console.log("ites hiding"));
+        // $(this).hover(console.log("u howered"));
+        console.log("mouse entered  on ", this.id);
+        console.log("uclicked on ", this.id);
+      });
+
+      $("p").mouseenter();
+      $("p").mouseenter(function () {
+        console.log("u clicked");
+        // $(this).hide(console.log("ites hiding"));
+        // $(this).hover(console.log("u howered"));
+        console.log("mouse entered  on ", this.id);
+        console.log("u clicked on ", this.id);
+      });
+
+      // $("p").mouseenter();
+      // $("p").on(function () {
+
+      //   click : function(){
+      //     console.log() ;
+      //   };
+      //   console.log("u clicked");
+      //   // $(this).hide(console.log("ites hiding"));
+      //   // $(this).hover(console.log("u howered"));
+      //   console.log("mouse entered  on ", this.id);
+      //   console.log("u clicked on ", this.id);
+      // });
+
+      // $("p").hide(function () {
+      //   console.log("clicked on p for hiding");
+      // });
+      // console.log($);
+      $("#but").click(function () {
+        $("#wiki").toggle(3000, function () {
+          console.log("Its toggling When U Clicked");
+        });
+      });
+
+      // $("#but").click(function () {
+      //   $("wiki").toggle(2000, "its toggle");
+      // });
+    });
+  </script>
+</html>
